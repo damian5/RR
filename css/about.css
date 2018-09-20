@@ -1,0 +1,31 @@
+.about {
+    width: 100%;
+    background: url('../assets/about.jpg');
+    background-attachment: fixed;
+    background-position: 70% 30%;
+}
+
+.new {
+    background: red;
+}
+.about-text {
+    padding: 20vh 2% 20vh 2%;
+    margin-left: 20%;
+    width: 50%;
+    height: auto;
+    vertical-align: center;
+    color: #000;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.about-text > h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 505px) {
+    .about-text {
+        text-align: center;
+        margin: 0 15% 0 26%;
+    }
+}
