@@ -5,6 +5,9 @@
     background-position: 70% 30%;
 }
 
+.new {
+    background: red;
+}
 .about-text {
     padding: 20vh 2% 20vh 2%;
     margin-left: 20%;
