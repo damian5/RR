@@ -1,0 +1,156 @@
+@font-face {
+  font-family: Agenda Light;
+  src: url(../fonts/AgendaLight.ttf);
+}
+
+body {
+  font-family: Agenda Light;
+}
+
+ /* -----HEADER------------------------------------------------------------*/
+
+header {
+  font-size: 18px;
+  padding: 25px 15px;
+  width: auto;
+}
+
+#header-links-container {
+  list-style-type: none;
+  display: none;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+header ul li {
+  display: list-item;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.header-links {
+  text-decoration: none;
+  color: #555;
+}
+
+.menu-toggle {
+  width: 30px;
+  height: 4px;
+  background-color: black;
+  margin: 5px 0;
+}
+
+#menu-toggle-container {
+  cursor: pointer; 
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+ /* -----VIDEO------------------------------------------------------------*/
+
+/* .video {
+  height: 254px;
+  position: relative;
+  color: #ffffff;
+}
+
+.video-img {
+  background-image: url(../assets/home-video.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.video-overlay {
+  background-image: url(../assets/pattern.png);
+  background-position: 0 0;
+  background-repeat: repeat;
+  position: absolute;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.video-message {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.video-message > div {
+  margin: 30px 15px;
+}
+
+.video-message h4 span {
+  font-size: 36px;
+}
+
+.video-message h2 span {
+  font-size: 60px;
+  line-height: 1.4em
+} */
+
+
+/* -----MEDIA QUERIES------------------------------------------------------------*/
+
+@media screen and (min-width: 768px) {
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 25px 25px;
+    width: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 6;
+  }
+
+  .header-links {
+    color: #ffffff;
+  }
+
+  #menu-toggle-container {
+    display: none;
+  }
+
+  #header-links-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  #header-links-container li {
+    margin: 0 17px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .btn-stimate a span {
+    border-color: #F4E0AA;
+    color: #F4E0AA;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 6px 12px;
+  }
+
+  /* .video {
+    height: 354px;
+  } */
+
+  .video-message > div {
+    margin: 100px 60px;
+  }
+}

@@ -1,23 +1,171 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/reset.css" title="style" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" title="style" />
+	<link rel="stylesheet" type="text/css" href="css/video.css" title="style" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" title="style" />
+	<link rel="stylesheet" type="text/css" href="css/about.css" title="style" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>Radium Rocket</title>
 </head>
+
 <body>
-    <div class="videoContainer">
-        <div class="overlay"></div>
-        <video class="video" autoplay loop muted>
-            <source src="assets/video.mp4" type="video/mp4">
-        </video>
-            <h1 class="text">WHAT WE DO?
-                 <p>WE HELP ENTREPRENEURS, START-UPS AND ENTERPRISES TO SHAPE THEIR IDEAS INTO PRODUCTS</p>
-                 <button>GET AN ESTIMATE!</button>
-            </h1>
-    </div>
+	<div>
+		<header>
+			<div class="menu-container">
+				<div id="menu-toggle-container">
+					<div class="menu-toggle"></div>
+					<div class="menu-toggle"></div>
+					<div class="menu-toggle"></div>
+				</div>
+				<a href="#" class="logo">
+					<img src="assets/radium-rocket-2.png" alt="Logo" width="60px" height="60px">
+				</a>
+				<div></div>
+			</div>
+			<ul id="header-links-container">
+				<li>
+					<a href="#" class="header-links">About</a>
+				</li>
+				<li>
+					<a href="#" class="header-links">Technologies</a>
+				</li>
+				<li>
+					<a href="#" class="header-links">Services</a>
+				</li>
+				<li class="btn-stimate">
+					<a href="#" class="header-links">
+						<span>Get an stimate</span>
+					</a>
+				</li>
+			</ul>
+		</header>
+		<div class="content">
+			<!-- <div class="video">
+				<div class="video-img"></div>
+				<div class="video-overlay"></div>
+				<div class="video-message">
+					<div>
+						<div>
+							<h4>
+								<span>
+									Brillant minds
+									<br>
+									Build great products.
+								</span>
+							</h4>
+						</div>
+						<div>
+							<h2>
+								<span>We have them.</span>
+							</h2>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<div class="videoContainer">
+				<div class="overlay"></div>
+				<video class="video" autoplay loop muted>
+					<source src="assets/video.mp4" type="video/mp4">
+				</video>
+				<h1 class="text">WHAT WE DO?
+					<p>WE HELP ENTREPRENEURS, START-UPS AND ENTERPRISES TO SHAPE THEIR IDEAS INTO PRODUCTS</p>
+					<button>GET AN ESTIMATE!</button>
+				</h1>
+			</div>
+			<div class="about">
+				<div class="about-text">
+					<h1>ABOUT US</h1>
+					<p>
+					Radium Rocket is a Argentina-based software engineering company that
+					integrates agile development culture. Since 2017, Radium Rocket’s clients have
+					enjoyed access to premium engineering services to support disruptive business
+					models and challenging development time lines. This has helped Radium Rocket’s
+					customers quickly evolve and create pathbreaking innovations to outperform
+					competitors.
+					</p>
+				</div>
+			</div>
+			<div class="services">
+				<div>
+					<div></div>
+					<div></div>
+				</div>
+				<div>
+					<div></div>
+					<div></div>
+				</div>
+				<div>
+					<div></div>
+					<div></div>
+				</div>
+				<div>
+					<div></div>
+					<div></div>
+				</div>
+				<div>
+					<div></div>
+					<div></div>
+				</div>
+				<div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+			<div class="technologies">
+				<div>
+
+				</div>
+				<div>
+
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer-logo">
+				<img src="./assets/radium-rocket-2.png"/>
+			</div>
+			<div class="footer-links-container">
+				<h1 class="small-menu-tittle">SITE MAP</h1>
+				<div class="footer-link-container-border"></div>
+				<ul class="footer-link-container-links">
+					<li>
+						<a href="#" class="footer-links">About</a>
+					</li>
+					<li>
+						<a href="#" class="footer-links">Technologies</a>
+					</li>
+					<li>
+						<a href="#" class="footer-links">Services</a>
+					</li>
+					<li>
+						<a href="#" class="footer-links">Get an stimate</a>
+					</li>
+				</ul>
+			</div>
+			<div class="contact-links">
+				<h2 class="small-menu-tittle">WE ARE ALSO ON</h2>
+				<div class="footer-contact-link-border"></div>
+				<ul class="footer-link-container-links">
+					<li>
+						<a href="#" class="footer-links">gitHub</a>
+					</li>
+					<li>
+						<p>mail</p>
+					</li>
+					<li>
+						<a href="#" class="footer-links">Like</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+
+	<script type="application/javascript" src="js/toggle.js"></script>
 </body>
+
 </html>
